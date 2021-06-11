@@ -1,0 +1,17 @@
+{
+    "name": "cocac/rouge-like",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Cocac\\RougeLike\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Caleb Owens",
+            "email": "cocacola5010mc@gmail.com"
+        }
+    ],
+    "require": {
+    }
+}

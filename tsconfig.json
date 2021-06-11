@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"strictPropertyInitialization": true,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitOverride": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceRoot": "./src/scripts/ts/",
+		"outDir": "./src/scripts/js/",
+		"sourceMap": true,
+		"target": "ES2017",
+		"module": "ESNext"
+	},
+	"include": ["./src/scripts/ts/**/*"]
+}
