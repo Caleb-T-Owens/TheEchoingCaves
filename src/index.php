@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>WebRouge</title>
+	<title>The Echoing Caves</title>
 </head>
 <body>
 <?php require('./scripts/global_imports.php') ?>

@@ -8,16 +8,15 @@ $paths = [
 
 foreach ($paths as $path) {
 	echo(
-		"<div class=\"header-item-container " .
-		($path[0] === $_SERVER["PHP_SELF"] ?
-			"header-item-container-selected" :
-			"") .
-	 	"\">" .
-		"<a class=\"header-item\" href=" .
-		$path[0] .
-		">" .
-		$path[1] .
-		"</a></div>");
+		"
+<div class=\"header-item-container
+	{${$path[0] === $_SERVER["PHP_SELF"] ?
+		"header-item-container-selected" :
+		""}} \">
+	<a class=\"header-item\" href={$path[0]}>
+		{$path[1]}
+	</a>
+</div>");
 }
 ?>
 </div>

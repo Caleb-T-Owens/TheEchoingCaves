@@ -18,7 +18,10 @@
 		"outDir": "./src/scripts/js/",
 		"sourceMap": true,
 		"target": "ES2017",
-		"module": "ESNext"
+		"module": "ESNext",
+		"baseUrl": "./",
+		"paths": {
+		}
 	},
 	"include": ["./src/scripts/ts/**/*"]
 }

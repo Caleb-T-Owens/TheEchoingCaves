@@ -1,10 +1,10 @@
 <?php
 function createConnection () {
 	$servername = "localhost";
-	$username = "yoozernaym";
-	$password = "parsword";
+	$username = "access";
+	$password = "access";
 
-	$dbname = "rougelike";
+	$dbname = "the_echoing_caves";
 
 	return new mysqli($servername, $username, $password, $dbname);
 }
