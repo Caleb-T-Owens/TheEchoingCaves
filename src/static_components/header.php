@@ -21,7 +21,7 @@ foreach ($paths as $path) {
 ?>
 </div>
 
-<script src="scripts/js/static_components/header.js" type="module"></script>
+<script src="scripts/out/static_components/header.js" type="module"></script>
 
 <style>
 .header-body {

@@ -1,3 +1,3 @@
-import $ from "jquery";
-
+import { jQuery as $ } from "jquery";
+console.log("heeloo0");
 $;
